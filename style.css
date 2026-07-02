@@ -810,6 +810,14 @@ button {
     margin-bottom: 1rem;
 }
 
+.project-content h3 a {
+    transition: var(--transition-normal);
+}
+
+.project-content h3 a:hover {
+    color: var(--primary-color);
+}
+
 .project-content p {
     color: var(--text-muted);
     margin-bottom: 1.5rem;
